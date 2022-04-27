@@ -20,7 +20,7 @@
         </div>
         <div class="slide">
             <div class="content">
-                <h1>Keep your Family More Healthy</h1>
+                <h1>Keep your Family More Healthy!</h1>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit hic
                     maxime, voluptatibus labore doloremque vero!
