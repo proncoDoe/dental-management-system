@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+
+:root{
+
+    --darkgray:#666;
+
+    --bgHpt:#806550;
+
+    --lightred: #f9433dcc;
+    --brightred: #f9423d;
+    --lightgreen: #5fbaa7;
+    --lightwhite: #f7f7f7;
+
+    --white:#fff;
+    
+--bootstrap:#0275d8;
+
+--bgBlack: #3111;
+
+--primary-color: #0275d8;
+
+--lightRed:  #f9433dcc;
+
+--bannerText:#ff6c76;
+
+--primaryBody: #ddd;
+
+}
+
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-color: #fff;
+    color: #666;
+    font-family: 'roboto' sans-serif;
+}
+
+
+
+.main-grid{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+
+
+.main-accordion{
+
+    display: flex;
+    height: 100vh;
+    
+  
+
+}
+
+.containa{
+
+    margin: 0 auto;
+    padding: 4rem;
+    width: 48rem;
+  
+    
+
+}
+
+
+.inner-accordion a{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 3rem 1rem 1rem;
+    margin-top: 2rem;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border-top:1px solid #ddd;
+    /* border-bottom:1px solid #ddd; */
+    
+    
+    text-decoration: none;
+
+}
+
+.accordion-item{
+
+    box-shadow: 0 2px 25px 0  rgba(110, 130, 208, .18);
+    
+}
+
+
+
+/* coming from javascript */
+.inner-accordion a .active{
+
+    color: #03b5d2;
+    border-bottom: #03b5d2;
+
+}
+
+
+.inner-accordion a:hover, .inner-accordion a:hover {
+
+    cursor: pointer;
+    color: #03b5d2;
+
+}
+
+.inner-accordion  a::after{
+
+    font-family: "Font Awesome 5 Free";
+    /* content: '\f358'; */
+    content: '+';
+    position: absolute;
+    float: right;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: #03b5d2;
+
+}
+
+
+.inner-accordion  a.active::after{
+
+    font-family: "Font Awesome 5 Free";
+    /* content: '\f35b'; */
+    content: '-';
+    color: #03b5d2;
+}
+
+
+.inner-accordion .accordion-item a::before{
+
+    content: '';
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    background-color: var(--white);
+    z-index: 1;
+    transform: rotate(45deg);
+    left: 30px;
+    top: 44px;
+
+    
+}
+
+.inner-accordion .content p{
+
+    font-size: 1rem;
+    font-weight: 300;
+    
+   
+     
+}
+
+.inner-accordion .content {
+
+    opacity: 0;
+    max-height: 0;
+ 
+    border: 1px solid #ddd;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: var(--lightgreen);
+    
+    margin-top: 0.3rem;
+    color: var(--darkgray);
+    
+}
+
+
+/* comming form javascript */
+.inner-accordion .content.active {
+
+    opacity: 1;
+    max-height: 100%;
+    padding: 1rem;
+    transition: all 0.3s ease;
+
+
+}
+
+
+.box-2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.box-2 img{
+
+    width: 70%;
+ 
+    
+
+    
+}
+
+
+.box-2 img{
+
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+.box-2 img:hover{
+
+    width: 70%;
+    transition: all 2s ease;
+    transform: translateX(-30px);
+    /* transform: scale(0.78); */
+    
+}
+
+
+
+.card{
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+  transform: scaleY(0.78);
+  transition: all 1000ms;
+
+}
+
+
+
+.card{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
+    background-color: #0275d8;
+  } 
+
+
+
+@media(max-width: 768px){
+
+    .main-accordion{
+
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+
+    .containa{
+
+ 
+        margin-left: 0.5rem;
+        padding: 0px;
+        width: 200%;
+      
+        
+    
+    }
+
+    .box-2 img{
+
+        display: none;
+    }
+
+
+
+}
+
+
+
+
+
+@media(max-width: 1004px){
+
+    .main-accordion{
+
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+
+    .containa{
+
+        margin-left: 0.5rem;
+        padding: 0px;
+        width: 200%;
+      
+        
+    
+    }
+
+    .box-2 img{
+
+        display: none;
+    }
+
+}

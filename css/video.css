@@ -1,0 +1,86 @@
+.main-video {
+  font-family: "Questrial", sans-serif;
+  position: relative;
+  background: #20272e;
+  height: 100vh;
+  clip-path: polygon(
+    56% 11%,
+    81% 5%,
+    100% 0,
+    100% 70%,
+    82% 75%,
+    50% 84%,
+    21% 93%,
+    0 100%,
+    0 27%,
+    19% 21%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -17%;
+}
+
+h1 {
+  color: #fff;
+}
+
+.screen {
+  cursor: pointer;
+  width: 50%;
+
+  height: 40vh;
+}
+
+.controls {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  width: 50%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.controls .btn {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.controls .btn:focus {
+  outline: none;
+}
+
+.controls .fa-play {
+  color: #fff;
+  padding: 10px;
+}
+
+.controls .fa-stop {
+  /* color:#dc3545; */
+  color: #fff;
+  padding: 10px;
+}
+
+/* This will pass through javascript */
+.controls .fa-pause {
+  color: #fff;
+  padding: 10px;
+}
+
+.controls .timestamp {
+  color: #fff;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+@media (max-width: 800px) {
+  .screen,
+  .controls {
+    width: 90%;
+  }
+}

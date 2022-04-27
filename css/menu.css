@@ -1,0 +1,55 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar{
+
+    border-bottom:3px solid #008ed6;
+
+    opacity: 0.8;
+
+}
+
+
+.error{
+
+    margin-top: 20px;
+    margin: 0px auto;
+    padding-top: 10px;
+    color: #f4f4f4;
+    font-weight: bold;
+    font-size: 15px;
+    display: none;
+    height: 40px; 
+
+
+}
+
+
+
+
+@media(max-width:768px){
+    
+    
+    li,.nav-item {
+        
+        margin: auto;
+    
+    
+    }
+
+    .nav-item{
+        
+        margin: auto;
+    
+    
+    }
+
+
+}
+

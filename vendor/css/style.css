@@ -1,0 +1,54 @@
+
+.container-fluid .card .sub{
+
+text-decoration: none;
+
+
+}
+
+
+
+.error{
+
+    margin-top: 20px;
+    margin: 0px auto;
+    padding-top: 10px;
+    color: #f4f4f4;
+    font-weight: bold;
+    font-size: 15px;
+    display: none;
+    height: 40px; 
+
+
+}
+
+
+nav .pagination li .active_link{
+
+    background-color:  #000 !important;
+    opacity: 0.8;
+                  
+                
+    }
+    
+
+
+    nav .pagination li a:hover{
+
+        background-color:  #0275d8;
+        color: #fff;
+        opacity: 0.8;
+        }
+
+
+
+nav .pagination li .light:hover{
+
+    background-color:  #f1f1f1;
+    color: #fff;
+    opacity: 0.8;
+                  
+            
+    }
+
+

@@ -1,0 +1,101 @@
+
+*{
+
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+
+
+
+body {
+    font-size: 0.8em;
+
+
+
+ 
+}
+
+.container {
+    margin: 0px auto;
+    
+}
+
+
+.textItalic{
+
+
+    font-style: oblique;
+    
+}
+
+
+
+.textSignup{
+
+    margin: 100px 0;
+    
+    }
+    
+    
+    .textSignup{
+    
+    
+        border-right: 1px solid #ccc;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    
+    }
+    
+  
+    
+    .textSignup .textSignupIner{
+    
+        display: inline-block;
+       
+    }
+
+
+
+    .sub:hover {
+
+        width: 30%;
+       
+    } 
+    
+    
+    
+ .sub:hover {
+        background: #f0d311;
+        width: 45%;
+        color: #444;
+        border: none;
+    } 
+
+
+
+    .log:hover {
+
+        width: 30%;
+       
+    } 
+    
+    
+    
+.log:hover {
+        background: #008ed6;
+        width: 45%;
+        color: #f7f7f7;
+        border: none;
+    } 
+
+
+
+
+
+
+

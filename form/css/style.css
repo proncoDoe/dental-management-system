@@ -1,0 +1,212 @@
+
+*{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    }
+    
+
+
+
+body {
+    font-size: 0.9em;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+ 
+}
+
+.container {
+    margin: 0px auto;
+    
+}
+
+
+.textItalic{
+
+
+    font-style: oblique;
+    font-weight: 300;
+}
+
+
+.condition{
+
+
+font-size: 0.9;
+
+}
+
+
+
+  input[type=text],
+  input[type='email'],
+  input[type=password]{
+
+    width: 100%;
+    padding: 12px 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+
+  }
+
+
+  .fontemail{
+
+    position: relative;
+}
+
+
+.fontemail i{
+
+    position: absolute;
+    right: 15px;
+    top: 50px;
+    color:#1376af;
+}
+
+.fontpassword{
+
+    position: relative;
+}
+
+
+.fontpassword i{
+
+    position: absolute;
+    right: 15px;
+    top: 50px;
+    color:#1376af;
+}
+
+
+
+
+.fontuser{
+
+    position: relative;
+}
+
+
+.fontuser i{
+
+    position: absolute;
+    right: 15px;
+    top: 50px;
+    color:#1376af;
+}
+
+
+.fontradio i{
+
+   
+    right: 15px;
+    top: 50px;
+    color:#1376af;
+    font-style: normal;
+}
+
+
+
+.textFont{
+
+  font-size: medium;
+
+}
+
+
+
+
+.form-menu{
+    display: inline-block;
+    
+  
+padding: 0 !important;
+cursor: pointer;
+
+}
+
+.form-menu a{
+
+    color: #f4f4f4;
+    background-image: linear-gradient(to right, #094144,#969091);
+    padding: 14px;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+
+
+}
+
+.gender,.gender_sub{
+
+    padding-right: 15px;
+}
+
+.upload{
+
+
+    padding-top: 3px;
+
+}
+
+
+
+.content{
+
+
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+
+.form-body {
+    margin: 0px auto !important;
+    background: #eeedec;
+    width: 60%;
+  
+
+}
+
+
+
+.sub:hover {
+
+    width: 30%;
+   
+} 
+
+
+
+.container .sub:hover {
+    background: #f0d311;
+    width: 45%;
+    color: #444;
+    border: none;
+} 
+
+
+.error{
+
+    margin-top: 20px;
+    margin: 0px auto;
+    padding-top: 10px;
+    color: #f4f4f4;
+    font-weight: bold;
+    font-size: 15px;
+    display: none;
+    height: 40px; 
+    
+    
+}
+
+

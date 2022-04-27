@@ -1,0 +1,66 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#career-main{
+
+    height: 40vh;
+    min-height: 750px;
+
+}
+
+
+
+#career-main .container .career-content{
+
+    bottom: -13rem;
+
+
+}
+
+
+
+.career-vertical{
+
+    margin: 100px 0;
+        
+    }
+        
+        
+    .career-vertical{
+        
+        
+        border-right: 1px solid #ccc;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+    }
+        
+
+
+
+
+    #career-doc .career-bg{
+
+        padding-bottom: 15%;
+        background: #fff url(../images/bac.png) no-repeat center;
+        background-size: cover;
+             
+        
+    }
+
+ 
+
+
+        
+
+
+
+
+
+    

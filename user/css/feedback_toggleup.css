@@ -1,0 +1,50 @@
+
+
+
+
+#section-icons .icons ul li {
+
+    display: inline;
+
+
+}
+
+#section-icons .icons ul li {
+
+    background-color: #cfcaca;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 0px 15px;
+    padding: 12px 15px;
+
+
+}
+
+
+
+#section-icons .icons ul li a i {
+
+    color: #0e0d0d;
+    font-size: 20px;
+
+
+}
+
+
+#section-icons .icons ul li a i {
+
+    line-height: 50px;
+
+
+}
+
+
+
+ #section-icons a:hover i {
+
+    transform: translateY(-10px);
+
+}
+   
+

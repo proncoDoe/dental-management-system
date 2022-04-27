@@ -1,0 +1,55 @@
+
+
+#term-main{
+
+  
+    min-height: 950px;
+
+}
+
+
+
+
+.term-content ul {
+    list-style: none; 
+    }
+
+    .term-content ul li::before {
+        content: "\2022";
+        color: #9a103e;
+        font-weight: bold; 
+        display: inline-block; 
+        width: 1em; 
+        margin-left: -1em; 
+        }
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    
+    
+
+    .container .term-img{
+
+        bottom: -8rem;
+
+        padding-left: 8rem;
+      
+        z-index: 10;
+
+
+    }
+
+
+
+}
+
+
+
+
+
